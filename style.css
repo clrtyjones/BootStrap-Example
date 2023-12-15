@@ -1,8 +1,8 @@
 /* styles.css */
 
-[class*="col"] {
-    padding: 1rem;
-    background-color: #33b5e5;
-    border: 2px solid #fff;
-    color: #fff;
+.scrolled-down{
+    transform:translateY(-100%); transition: all 0.3s ease-in-out;
+}
+.scrolled-up{
+    transform:translateY(0); transition: all 0.3s ease-in-out;
 }
